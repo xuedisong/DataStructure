@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.opc.shelves</groupId>
+    <artifactId>shelf-dispatch-strategy-core</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+    <properties>
+        <fd-bom.version>1.3.0</fd-bom.version>
+        <wormpex.common>1.0.10</wormpex.common>
+        <redis.version>2.9.0</redis.version>
+        <aviator.version>3.1.0</aviator.version>
+        <opc-common.version>1.0.37</opc-common.version>
+        <shelf-dispatch-strategy.version>1.0.3</shelf-dispatch-strategy.version>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.0.1-jre</version>
+        </dependency>
+    </dependencies>
+
+</project>
